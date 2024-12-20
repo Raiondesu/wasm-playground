@@ -1,0 +1,12 @@
+{
+  "name": "wasm-playground",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "C:\\cheerp\\bin\\clang++.exe ./srcpp/main.cpp -o ./src/cpp/index.js -O3 -target cheerp-wasm -cheerp-preexecute -cheerp-make-module=es6",
+    "start": "npx http-server ./src --proxy http://localhost:8080?"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
